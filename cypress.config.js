@@ -4,7 +4,7 @@ module.exports = defineConfig({
   projectId: "nnrrzu",
   reporter: 'cypress-mochawesome-reporter',
   env: {
-    url: "https://qa.fgntreasury.gov.ng",
+    url: "https://dev.fgntreasury.gov.ng",
   },
 
   e2e: {

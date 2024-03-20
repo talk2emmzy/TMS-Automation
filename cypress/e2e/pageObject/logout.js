@@ -24,7 +24,7 @@ class logout
 
     dropdownBtn()
    {
-    cy.get('.ant-dropdown-trigger').click({force: true})
+    cy.get('.ant-dropdown-trigger > .anticon > svg').click({force: true})
    }
 
    logoutBtn()

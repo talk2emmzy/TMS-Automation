@@ -32,7 +32,7 @@ class overview
 
     verifyHeading()
     {
-        cy.get('.sidebarHeading > button').should('contain', 'OAGF ADMIN')
+        cy.get('.sidebarHeading > button').should('contain', 'Nigerian Football Federation')
     }
 
     wait()

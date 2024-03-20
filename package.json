@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "cypress": "^13.3.0",
+    "cypress": "^13.7.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^3.6.0"
   },
@@ -179,5 +179,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanuelqate/TMSv2-main.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emmanuelqate/TMSv2-main/issues"
+  },
+  "homepage": "https://github.com/emmanuelqate/TMSv2-main#readme",
   "description": ""
 }

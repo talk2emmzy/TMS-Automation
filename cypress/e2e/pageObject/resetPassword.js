@@ -33,6 +33,11 @@ class resetPassword
 
     }
 
+    closeModal()
+    {
+        cy.get(':nth-child(3) > .btn').click()
+    }
+
     
 }
 

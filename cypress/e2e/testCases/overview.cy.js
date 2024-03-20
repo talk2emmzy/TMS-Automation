@@ -2,11 +2,13 @@ import overview from "../pageObject/overview.js"
 
 describe('Overview', ()=>{
     beforeEach(function(){
-        cy.visit('https://qa.fgntreasury.gov.ng/auth/login')
+        
+        cy.visit(Cypress.env('url')+'/auth/login')
+        
         })
+
     it('Verify that user can view the dashboard', ()=>{
        
-        
         cy.fixture('example').then((data)=>{
 
         const ln = new overview();
@@ -22,20 +24,7 @@ describe('Overview', ()=>{
         
         })
 
-        
-        
-        
 
-        
-        //cy.visit(Cypress.env('baseUrl')+"/auth/login")
-        //cy.get('.nav-logo')
-        //cy.get(':nth-child(1) > .form-control > .no-outline').type('OAGF_ADMINN')
-        //cy.get(':nth-child(2) > .form-control > .no-outline').type('Simple@123')
-       // cy.get('div.login-text > div').click()
-        //cy.wait(5000)
-        //cy.get('.Toastify__toast-body > :nth-child(2)').should('contain', 'Your request was successful')
-        //cy.get('.sidebarHeading > button').should('contain', 'OAGF ADMIN')
-       // cy.wait(20000)
     })
 
 

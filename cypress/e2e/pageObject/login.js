@@ -51,7 +51,7 @@ class login
    
     verifyAccountName()
     {
-        cy.get('button > span').should('contain', 'FEDERAL MINISTRY OF YOUTH & SPORTS DEV - HQTRS')
+        cy.get('button > span').should('contain', 'Nigerian Football Federation')
     }
 
     verifyEmptyUsername()
